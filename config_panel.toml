@@ -1,8 +1,8 @@
 version = "0.1"
-name = "My webapp configuration panel"
+name = "Main page configuration panel"
 
 [main]
-name = "My webapp configuration"
+name = "Main page configuration"
 
     [main.sftp]
     name = "SFTP access"

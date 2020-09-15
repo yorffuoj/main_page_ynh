@@ -1,17 +1,17 @@
 {
-    "id": "my_webapp",
-    "name": "Custom Webapp",
+    "id": "main_page",
+    "name": "Main Page",
     "packaging_format": 1,
     "description": {
-        "en": "Custom Web app with SFTP access",
-        "fr": "Application Web personnalisée avec accès SFTP"
+        "en": "Main page for my personal website",
+        "fr": "Page web principal pour mon site web perso avec accès SFTP"
     },
     "version": "1.0~ynh3",
-    "url": "https://github.com/YunoHost-Apps/my_webapp_ynh",
+    "url": "https://github.com/yorffuoj/main_page_ynh",
     "license": "GPL-3.0-only",
     "maintainer": {
-        "name": "Maniack Crudelis",
-        "email": "maniackc_dev@crudelis.fr"
+        "name": "stanjouf",
+        "email": "stan.jouf@riseup.net"
     },
     "requirements": {
         "yunohost": ">= 3.8.0"
@@ -28,8 +28,8 @@
                 "name": "domain",
                 "type": "domain",
                 "ask": {
-                    "en": "Choose a domain for your Webapp",
-                    "fr": "Choisissez un domaine pour votre Webapp"
+                    "en": "Choose a domain for your main page",
+                    "fr": "Choisissez un domaine pour votre page principale"
                 },
                 "example": "domain.org"
             },
@@ -37,11 +37,11 @@
                 "name": "path",
                 "type": "path",
                 "ask": {
-                    "en": "Choose a path for your Webapp",
-                    "fr": "Choisissez un chemin pour votre Webapp"
+                    "en": "Choose a path for your main page",
+                    "fr": "Choisissez un chemin pour votre page principale"
                 },
-                "example": "/site",
-                "default": "/site"
+                "example": "/accueil",
+                "default": "/accueil"
             },
             {
                 "name": "with_sftp",
@@ -60,7 +60,7 @@
                     "en": "Set the password for the SFTP access.",
                     "fr": "Définissez le mot de passe pour l'accès SFTP."
                 },
-                "example": "myreallystrengthpassword"
+                "example": "myreallystrongpassword"
             },
             {
                 "name": "is_public",

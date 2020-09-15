@@ -1,9 +1,8 @@
-# Custom Webapp for YunoHost
+# My personal main page for YunoHost
+  
+[![Install my main page with YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=my_webapp)
 
-[![Integration level](https://dash.yunohost.org/integration/my_webapp.svg)](https://dash.yunohost.org/appci/app/my_webapp) ![](https://ci-apps.yunohost.org/ci/badges/my_webapp.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/my_webapp.maintain.svg)  
-[![Install Custom Webapp with YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=my_webapp)
-
-> *This package allow you to install Custom Webapp quickly and simply on a YunoHost server.  
+> *This package allow you to install my main page quickly and simply on a YunoHost server.  
 If you don't have YunoHost, please see [here](https://yunohost.org/#/install) to know how to install and enjoy it.*
 
 ## Overview
@@ -53,20 +52,5 @@ then you should use this port to update your website with SFTP.
 
 ## Links
 
- * Report a bug: https://github.com/YunoHost-Apps/my_webapp_ynh/issues
+ * Report a bug: https://github.com/yorffuoj/main_page_ynh/issues
  * YunoHost website: https://yunohost.org/
-
----
-
-Developers info
-----------------
-
-**Only if you want to use a testing branch for coding, instead of merging directly into master.**
-Please do your pull request to the [testing branch](https://github.com/YunoHost-Apps/my_webapp_ynh/tree/testing).
-
-To try the testing branch, please proceed like that.
-```
-sudo yunohost app install https://github.com/YunoHost-Apps/my_webapp_ynh/tree/testing --debug
-or
-sudo yunohost app upgrade my_webapp -u https://github.com/YunoHost-Apps/my_webapp_ynh/tree/testing --debug
-```
