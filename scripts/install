@@ -129,6 +129,8 @@ else
     cp "../sources/www/index_no_sftp.html" "$final_path/www/index.html"
 fi
 
+cp "../sources/www/favicon.ico" "$final_path/www/favicon.ico"
+
 if [ $with_mysql -eq 1 ]; then
     # Store the database access
     echo -e "# MySQL Database
