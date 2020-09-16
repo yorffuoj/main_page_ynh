@@ -4,7 +4,7 @@
     "packaging_format": 1,
     "description": {
         "en": "Main page for my personal website",
-        "fr": "Page web principal pour mon site web perso avec accès SFTP"
+        "fr": "Page web principale pour mon site web perso avec accès SFTP"
     },
     "version": "1.0~ynh3",
     "url": "https://github.com/yorffuoj/main_page_ynh",
